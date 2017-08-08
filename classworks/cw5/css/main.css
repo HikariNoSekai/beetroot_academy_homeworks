@@ -1,0 +1,69 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+}
+
+.btn > i{
+	font-size: 40px;
+}
+
+input{
+	display: none;
+}
+
+.nav{
+	height: 100vh;
+	width: 300px;
+	box-shadow: 0 5px 10px rgba(0,0,0, .3);
+	transform: translateX(-100%);
+	transition: all .3s ease-in;
+}
+
+input:checked + .btn{
+	color:red;
+}
+
+input:checked ~ .nav{
+	transform: translateX(0);
+}
+
+/* .wrapper{
+material.io - icons
+	border: 1px solid;
+	height: 100px;
+	width: 100px;
+	margin: 100px auto;
+	position: relative;
+	padding: 5px;
+	overflow: hidden;
+	
+overflow-y: scroll;
+}
+
+.block{
+	width: 100%;
+	height: 100%;
+	background: #000;
+	transform: translate(50%, 50%) scale(1) rotateY(30deg);
+	transition: all .2s ease-in;
+	transform: skew(15deg) скосы
+	transform-origin: top left; - относительно какого угла
+	transform: rotate(30deg);
+	backface-visibility: hidden ; - задний фон блока убирает при повороте, позволяет при вращение менять контент сторон
+	transform-style: preserve-3d; высокое отображение переднего и заднего плана в рендере
+						flat  низкий уровень рендера
+}
+
+.wrapper:hover .block{
+	transform: scale(1.2) rotate(15deg);
+}
+выравнивание по центру 
+position: absolute;
+left: 50%;
+top: 50%
+transform: translate(-50%, -50%)
+
+ */

@@ -1,0 +1,108 @@
+/* span{
+	
+}
+
+.span{
+	
+}
+
+#span{
+	
+}
+
+.block a{
+	
+}
+
+a[href="#"]{
+	
+}
+
+.block > a{ только прямым дочерним элементам
+	
+}
+
+.block ~ a{ все след элементы
+	
+}
+
+.block + a{ первый след
+	
+} */
+
+/* .wrapper{
+	font-size: 20px;
+}
+
+.first{
+	font-size: 1em;
+}
+
+.second{
+	font-size: 2em;
+}
+
+.wrapper2 {
+	font-size: 2em;
+}
+
+.wrapper p{
+	font-size: 5em;
+} */
+
+/* .wrapper{ нужный шрифт/16 = колич. в rem
+	font-size: 1rem;
+	text-align: ;left | right | center | justify
+} */
+
+.first{
+	text-align: left;
+	font-family: Arial, Helvetica. sans-serif;
+	font-size: 3em;
+	/* font-weight: 600;
+	font-style: italic; normal */
+	
+} 
+
+/* .link{
+	font-size: 4rem;
+	text-decoration: none;
+	text-transform: uppercase;
+} */
+
+.wrapper{
+	font-size: 3rem;
+	line-height: 3.125; /* na 2px bolcshe */
+}
+
+span{
+	text-align: right;
+}
+.wrap-block{
+	/* text-align: right;
+	font-size: 0;  важно!!!!*/
+	font: 2rem sans-serif, Arial;
+}
+.block{
+	width: 100px;
+	height: 100px;
+	background-color: #000;
+	display: inline-block;
+}
+
+.btn{
+	display: block;
+	width: 100px;
+	height: 100px;
+	border: 1px solid #000;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.anchor{
+	display: block;
+	border: 1px solid #000;
+	font-size: 16px;
+	line-height: 18px;
+	padding: 5px 10px;
+}

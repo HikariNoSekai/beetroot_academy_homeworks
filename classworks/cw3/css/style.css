@@ -1,0 +1,86 @@
+/* .block{
+	width: 100px;
+	height: 100px;
+	border: 10px solid black;
+}
+.parent{
+	border: 1px solid yellow;
+}
+.block_img{
+	width: 700px;
+	height: 1700px;
+	border: 1px solid black;
+	margin: 100px auto;
+background-color: lightblue;
+background-image: url('../img/github.png');
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+	background: lightblue url('../img/github.png') center center no-repeat;
+	//background-size: cover; // изображение без потери качества
+}
+*/
+.link, .link:visited{
+	font-size: 100px;
+	color: #000;
+}
+.link:active{
+	color: lemonchiffon;
+}
+.link:hover{
+	color: lemonchiffon;
+}
+
+.nav_list{
+	display: flex;
+	list-style: none;
+	width: 500px;
+	flex-flow: row wrap;
+}
+
+.nav_item{
+	background: lightblue;
+	margin: 25px;
+}
+/* not(.class) */
+.nav_item:not(:last-child){
+	
+}
+/* c konca */
+.nav_item:nth-last-child(1){
+ background: red;	
+}
+/* even - 4etnie
+odd - ne4etnie */
+/* vibrat kakoy-to element*/
+.nav_item:nth-child(even){
+	background: yellow;
+}
+
+/* :before  obyazan bit "content", 4tob sdelat zatemnenie naprimere rgb(0 , 0 , 0, .6) */
+/* 
+@media screen and (min-width: 768px){
+	.link:hover{
+		color: lemonchiffon;
+	}
+} */
+/* .parent:hover .block{
+	background: #000 url('//path') center center no-repeat fixed;
+} */
+
+/* 
+:first-letter - pervaya bykva
+:first-line - pervaya stroka
+::selection - vidilenie
+:last-child
+:first-child
+:nth-child(5)
+:nth-last-child(1)
+:not(.clacc // :child)
+min-width
+max-width
+min-height
+max-height
+border
+background
+ */
