@@ -67,12 +67,12 @@ html, body{
 	line-height: 20px;
 }
 
-.cities__list:hover{
-	opacity: .6;
+.cities__list:hover .cities__item{
+	opacity: .3;
 }
 
-.cities__item:hover{
-	opacity: .8;
+.cities__list .cities__item:hover{
+	opacity: 1;
 }
 
 
