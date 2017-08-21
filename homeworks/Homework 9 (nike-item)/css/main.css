@@ -1,0 +1,91 @@
+@import url('../libs/normalize/normalize.css');
+@import url('../css/museosansfonts.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+
+/***
+	default settings
+***/
+
+*{
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+	margin-bottom: 0;
+}
+
+ul, ol{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+.container{
+	max-width: 690px;
+	margin: 0 auto;
+}
+
+img{
+	display: block;
+	max-width: 100%;
+}
+
+body{
+	background: url('../img/background.png') no-repeat;
+	background-size: cover;
+}
+
+/* 
+	item-card
+ */
+
+.item-card{
+	position: absolute;
+	background: #111a28;
+	border-radius: 10px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 17px 35px 17px 20px;
+}
+
+
+.item-card__slider{
+	display: inline-block;
+	width: 49%;
+	vertical-align: top;
+	margin-top: 60px;
+	margin-bottom: 25px;
+}
+
+.item-card__content-wrap{
+	text-align: center;
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+	
+}
+
+.item-card__title{
+	width: 60%;
+	color: #fff;
+	font-size: 1.5rem;
+	font-family: 'MuseoSansLight', sans-serif;
+	font-weight: 100;
+	line-height: 26px;
+	margin: 0 auto;
+}
+
+.item-card__desc{
+	color: #fff;
+	font-size: 0.875rem;
+	font-family: 'MuseoSansLight', sans-serif;
+	font-weight: 100;
+	line-height: 26px;
+	opacity: .54;
+}
